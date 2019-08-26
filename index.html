@@ -1,36 +1,91 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="ico/car_repair.ico" type="image/x-icon">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="shortcut icon" href="ico/car_repair.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/index.css">
+	<title>Moqup-website</title>
 </head>
 <body>
-    <header>
-        <div id="logo">
-        <a href="index.html">West Car Service</a>
+	<header>
+		<div id="logo">
+			<a href="index.html">West Car Service</a>
+		</div>
+		<div>
+			<form id="search">
+				<input type="search" name="Search" placeholder="введіть текст">
+            <button type="submit">Пошук</button>
+            </form>
         </div>
-    <nav>
-        <a href="tel:+380670000000">+38(067)000-00-00</a>
-        <a href="mailto:6181500@gmail.com">6181500@gmail.com</a>
-        <a href="https://www.google.com/maps/place/Львів">Де ми на карті</a>
-    </nav>
-    </header>
-    <h1>Новини та події</h1>
-    <!-- сюди потрібно внести інфу під новини -->
-        <img src="picture" alt="picture"><p>news text</p>
-        <img src="picture" alt="picture"><p>news text</p>
-
+        <nav id="shortcut">
+			<ul>
+				<li><a href="index.html">Головна</a></li>
+				<li><a href="#service">Сервіс</a></li>
+				<li><a href="order.html">Запис</a></li>
+				<li><a href="#contact">Контакти</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="home">
+			<h2>WEST CAR SERVICE</h2>
+			<h1>ДОВІР СВОЄ АВТО ПРОФЕСІОНАЛАМ</h1>
+		</section>
+		<section id="news">
+			<h2>Новини та події</h2>
+			<!-- сюди потрібно внести інфу під новини -->
+			<img src="http://via.placeholder.com/200x200/" alt="picture" title="news-picture">
+            <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в</p>
+        <img src="http://via.placeholder.com/200x200/" alt="picture" title="news-picture">
+        <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в</p>
     <!-- Це потрібно помістити збоку, або по центру -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Головна</a></li>
-            <li><a href="#service">Сервіс</a></li>
-            <li><a href="order.html">Запис</a></li>
-            <li><a href="#contact">Контакти</a></li>
-        </ul>
-    </nav>
+		</section>
+        <section id="service">
+<h2>Послуги та Сервіс</h2>
+<!-- Випадаючий список потрібно зробити -->
+    <div class="service-info">
+    <div class="p">
+        <input id="p1" type="checkbox" name="service-type">
+        <label for="p1">Планове ТО</label>
+    <div class="p-content">
+      <p>Планове ТО-це</p>
+    </div>
+    </div>
+  <div class="p">
+    <input id="p2" type="checkbox" name="service-type">
+    <label for="p2">Заміна мастил</label>
+  <div class="p-content">
+  <p>Заміна мастил-це</p>
+  </div>
+  </div>
+  <div class="p">
+  <input id="p3" type="checkbox" name="service-type">
+  <label for="p3">Двигун</label>
+  <div class="p-content">
+  <p>Двигун: роботи по ремонту двигуна</p>
+  </div>
+  </div>
+  </div>
+        </section>
+  </main>
+  <footer>
+      <div>
+		<h3>Контакти:</h3>
+			<ul>
+				<li>
+                    <a href="tel:+380670000000">+38(067)000-00-00</a>
+                </li>
+                <li>
+				<a href="mailto:6181500@gmail.com">6181500@gmail.com</a>
+                </li>
+                <li>
+				<a href="https://www.google.com/maps/place/Львів">Де ми на карті</a>
+                </li>
+            </ul>
+            <p>@Дана сторінка створена в навчальних цілях в серпні 2019р.</p>
+		</div>
+  </footer>
 </body>
 </html>
