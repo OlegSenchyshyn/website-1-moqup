@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Livvic|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Frijole&display=swap&subset=cyrillic,cyrillic-ext');
 
 :root {
     --accent-color: #0c61eb;
     --font-color: black;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -13,8 +13,8 @@ body {
 }
 
 header nav .logo {
-    font-family: 'Livvic', sans-serif;
-    font-size: 3rem;
+    font-family: 'Frijole', sans-serif;
+    font-size: 2rem;
     margin: 1rem 0;
     text-align: center;
     text-transform: uppercase;
@@ -52,7 +52,7 @@ header nav .menu li a:hover  {
 }
 
 header .banner {
-    background-image: url('../img/homepic.jpg');
+    background-image: url('../img/dodge.jpg');
     background-position: center;
     background-size: cover;
     height: 500px;
@@ -62,10 +62,37 @@ header .banner {
     flex-direction: column
 }
 header .banner h1 {
-    font-family: 'Livvic', sans-serif;
-    font-size: 3rem;
-    margin: 1rem 0;
-    text-align: center;
+    font-family: 'Frijole', sans-serif;
+    font-size: 6vw;
     text-transform: uppercase;
-    color: var(--accent-color);
+    background: linear-gradient(9deg, #d81a1a 33%, #f37f07 66%, #7b046e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    display: table;
+    margin: 20px auto;
+
+}
+header .banner p{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 5vw;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+header .banner button{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 5vw;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 1px;
+    border-width: thick;
+}
+
+header .banner button:hover  {
+    border: auto;
+    border-style: dotted;
+
 }
