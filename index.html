@@ -5,45 +5,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="shortcut icon" href="ico/car_repair.ico" type="image/x-icon">
-        <link rel="stylesheet" href="css/index.css">
         <title>Moqup-website</title>
+        <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
         <header>
-            <div id="logo" title="LOGO">
-                <a href="index.html">West Car Workshop</a>
-            </div>
-            <hr>
-            <div>
-                <form id="search">
-                    <input type="search" name="Search" placeholder="Текст для пошуку">
-                    <button type="submit">Пошук</button>
-                </form>
-            </div>
-            <nav id="shortcut">
-                <ul>
-                    <li>
-                        <a href="index.html">Головна</a>
-                    </li>
-                    <li>
-                        <a href="#service">Сервіс</a>
-                    </li>
-                    <li>
-                        <a href="order.html">Запис on-line</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Контакти</a>
-                    </li>
+            <form class="search">
+                <input type="search" name="Search" placeholder="Текст для пошуку">
+                <button type="submit" class="button">Пошук</button>
+            </form>
+            <nav>
+                <p class="logo">West Car Workshop</p>
+                <ul class="menu">
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="#service">Сервіс</a></li>
+                    <li><a href="order.html">Запис</a></li>
+                    <li><a href="#contact">Контакти</a></li>
                 </ul>
             </nav>
+            <div class="banner">
+
+                <p class="banner-text">Бездоганність в деталях</p>
+                <h1>WEST CAR WORKSHOP</h1>
+                <p class="banner-text">Довір своє авто професіоналам</p>
+            </div>
         </header>
+
         <main>
-            <img src="img/homepic1.jpg" alt="Home Picture">
-            <p>Бездоганність в деталях!</p>
-            <h1>WEST CAR WORKSHOP</h1>
-            <p>Довір своє авто професіоналам!</p>
-            <hr>
-            <section id="news">
+             <section id="news">
                 <h2>Новини та події</h2>
                 <div class="news">
                     <!-- сюди потрібно внести інфу під новини -->
@@ -100,5 +89,6 @@
                 <p>@Дана сторінка створена в навчальних цілях в серпні 2019р.</p>
             </div>
         </footer>
+
     </body>
 </html>
